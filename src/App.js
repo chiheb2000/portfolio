@@ -14,7 +14,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Interface />}>
-          <Route index element={<Acceuil />} />
+          <Route path="portfolio" element={<Acceuil />} />
           <Route path="Resume" element={<Resume />} />
           <Route path="Scolaire" element={<Scolaire />} />
           <Route path="Skills" element={<Skills />} />
